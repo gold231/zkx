@@ -3,6 +3,15 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
+    fontFamily: {
+      'sans': ['Helvetica', 'Arial', 'sans-serif'],
+      'sui': ['SuisseIntl'],
+      'si': ['SiFont'],
+      'sir': ['SiFontRegular'],
+      'sin': ['SiFontNormal'],
+      'sit': ['SiFontThin'],
+    }
+    ,
     extend: {
       colors: {
         base: '#12141D',

@@ -1,5 +1,4 @@
-//import logo from './logo.svg';
-import background from './background.png';
+import background from './img/background.png';
 import './App.css';
 import Navbar from './components/Navbar'
 import Header from './components/Header/Header'

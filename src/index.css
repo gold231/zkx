@@ -2,7 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url(//db.onlinewebfonts.com/c/88f10bf18a36407ef36bf30bc25a3618?family=Suisse+Intl);
+
+ @font-face {
+  font-family: 'SiFont';
+  src: local('SiFont'), url(/public/assets/font/SuisseIntl-Bold.otf) format('woff');
+}
+@font-face {
+  font-family: 'SiFontRegular';
+  src: local('SiFontRegular'), url(/public/assets/font/SuisseIntl-Regular.ttf) format('woff');
+}
+@font-face {
+  font-family: 'SiFontNormal';
+  src: local('SiFontNormal'), url(/public/assets/font/SuisseIntl-Medium.ttf) format('woff');
+}
+@font-face {
+  font-family: 'SiFontThin';
+  src: local('SiFontThin'), url(/public/assets/font/SuisseIntl-Thin.otf) format('woff');
+}
+
 
 button:focus {
   outline: 0px dotted;
@@ -11,7 +28,7 @@ button:focus {
 
 body {
   margin: 0;
-  font-family: "Suisse Intl",-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: 'SiFont','Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -20,6 +37,6 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: 'SiFont', 'SiFontNormal','SiFontRegular','SiFontThin','Courier New',
     monospace;
 }
