@@ -9,16 +9,16 @@ const Footer = () => {
           <a href="#"><img src="./assets/img/support.png" class="max-w-full h-auto object-center" alt="..." /></a>
           <p class="text-white pl-5"><a href="mailto:test@test.com">Support@Zkf.fi</a></p>
         </div>
-        <div class="inline-flex w-full sm:w-1/3 md:w-3/6 lg:w-1/4 xl:w-1/3 lg:pt-0 xl:pt-0 pt-5 justify-center items-center">
+			  <div class="inline-flex w-full sm:w-1/3 md:w-3/6 lg:w-1/4 xl:w-1/3 lg:pt-0 xl:pt-0 pt-5 justify-center items-center">
           <p class="text-white pl-5"><a href="#" onClick={() =>  scroller.scrollTo('aboutussection', {
-            duration: 800,
-            delay: 0,
-            smooth: 'easeInOutQuart'
-          })}>About Us</a></p>
+              duration: 800,
+              delay: 0,
+              smooth: 'easeInOutQuart'
+            })}>About Us</a></p>
           <p class="text-white pl-5"><a href="#" onClick={() =>  scroller.scrollTo('whysection', {
-            duration: 800,
-            delay: 0,
-            smooth: 'easeInOutQuart'
+              duration: 800,
+              delay: 0,
+              smooth: 'easeInOutQuart'
           })}>Why ZKX</a></p>
         </div>
         <div class=" inline-flex w-full sm:w-1/3 md:w-3/6 lg:w-1/4 xl:w-1/3  lg:pt-0 xl:pt-0 pt-5 md:justify-end md:items-left lg:justify-end lg:items-left xl:justify-end xl:items-left justify-center items-center">
@@ -28,7 +28,7 @@ const Footer = () => {
           <a href="#"><img src="./assets/img/teligram.png" class="max-w-full h-auto object-center xl:pl-5 pl-5" alt="..." /></a>
           <a href="#"><img src="./assets/img/linkdin.png" class="max-w-full h-auto object-center xl:pl-5 pl-5" alt="..." /></a>
         </div>
-      </div>
+		  </div>
     </div>
   )
 }

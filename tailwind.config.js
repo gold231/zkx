@@ -10,8 +10,7 @@ module.exports = {
       'sir': ['SiFontRegular'],
       'sin': ['SiFontNormal'],
       'sit': ['SiFontThin'],
-    }
-    ,
+    },
     extend: {
       colors: {
         base: '#12141D',

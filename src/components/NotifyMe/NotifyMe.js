@@ -5,7 +5,7 @@ const axios = require('axios');
 
 const NotifyMe = () => {
   return (
-    <div class="container mx-auto lg:px-20 xl:px-20 px-4" id="notifysection">
+    <div class="container mx-auto lg:px-20 xl:px-20 px-4" id="notifysection">   
 		  <div class="mt-20  xl:mt-40 lg:mt-40 bg-[#1e2029] rounded-3xl xl:p-28 	pb-20  	pt-20 ">
         <h1 class="text-4xl text-white font-bold xl:text-center md:text-center lg:text-center text-left pl-5 lg:pl-0 xl:pl-0 font-si">Join the waitlist for early access</h1>
         <p class="text-white mt-6 font-[18px] font-sir text-left md:text-center xl:text-center lg:text-center pl-5 lg:pl-0 xl:pl-0" >Sign up for early access and latest news from ZKX.</p>
@@ -17,7 +17,7 @@ const NotifyMe = () => {
                 Notify Me
               </button>
             </form>
-				  </div>
+          </div>
         </div>
       </div>
     </div>

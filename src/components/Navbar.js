@@ -6,7 +6,7 @@ const Navbar = () => {
 
   const [isopen, setIsOpen] = useState(false);
   const [isMobile, setIsMobile] = useState(false)
-  const [isMobileOpen, setIsMobileOpen] = useState(false) 
+  const [isMobileOpen, setIsMobileOpen] = useState(false)
 
   const handleResize = () => {
     if (window.innerWidth < 720) {
@@ -38,7 +38,7 @@ const Navbar = () => {
     window.addEventListener("resize", handleResize)
   })
 
-  return (
+  return (     
     <div class="container mx-auto xl:px-32 lg:px-32 md:px-32 px-5">
       <nav class="text-white lg-pt-5 xl:pt-5 pt-5 border-gray-200 sm:px-4 rounded dark:bg-gray-800">
         <div class="container flex flex-wrap justify-between  mx-auto">
@@ -69,7 +69,7 @@ const Navbar = () => {
                   smooth: 'easeInOutQuart'
                 })}
                 >Why ZKX</a>
-              </li>            
+              </li>       
               <li>
                 <button onClick={handleClick} id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar" class="bg-[#23242D] md:bg-transparent xl:bg-transparent lg:bg-transparent mt-1 rounded-lg flex justify-between items-center py-2 pr-4 pl-3 w-full font-medium text-white  md:hover:bg-transparent md:border-0 md:p-0 md:w-auto  md:dark:hover:bg-transparent text-[16px] font-sin">Community <svg class="ml-1 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg></button>
                 {isopen == true && 
@@ -82,7 +82,7 @@ const Navbar = () => {
                         <a class="w-full block px-4 py-2 mt-2 text-white text-[16px] font-sin inline-flex" href="#"><img src="./assets/img/teligram.png" class="max-w-full h-auto object-center pr-5" alt="..." />Telegram</a>
                         <a class="w-full  block px-4 py-2 mt-2 text-white text-[16px] font-sin inline-flex" href="#"><img src="./assets/img/linkdin.png" class="max-w-full h-auto object-center pr-5" alt="..." />Linkdin</a>
                       </div>
-                    </ul>              
+                    </ul>                
                   </div>
                 }
                 {isopen == false && 
@@ -103,7 +103,7 @@ const Navbar = () => {
                     </div>
                   </div>
                 }
-              </li>          
+              </li>     
             </ul>
           </div>
         </div>
